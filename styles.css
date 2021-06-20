@@ -36,6 +36,21 @@ h1 {
   width: 150px;
 }
 
+.push {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #11446e;
+  font-weight: 700;
+  border: 1px solid #11446e;
+  border-radius: 10px;
+  background: #cee0eb;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
 .joke {
   color: #fff;
   background: #11446e;
@@ -59,10 +74,12 @@ h1 {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
 }
 
-.btn:active {
+.btn:active,
+.push:active {
   transform: scale(0.98);
 }
 
-.btn:focus {
+.btn:focus,
+.push:focus {
   outline: none;
 }
